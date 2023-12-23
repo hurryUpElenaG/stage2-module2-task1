@@ -1,7 +1,6 @@
 <%@ page import="java.util.Set" %>
 <%@ page import="com.example.User" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<!DOCTYPE html>
 <html>
 <body>
 <head>
@@ -23,7 +22,7 @@
         %>
         <br>
         <div>
-            <button class="w3-btn w3-green w3-round-large" onclick="location.href='./add'">Add User</button>
+            <button class="w3-btn w3-green w3-round-large" onclick="location.href='/add'">Add User</button>
         </div>
     </div>
 </div>
